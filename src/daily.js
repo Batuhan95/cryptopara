@@ -14,7 +14,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    axios.get('https://min-api.cryptocompare.com/data/generateAvg?fsym=BTC&tsym=USD&e=Kraken&api_key=69bf31667fe9d7f0019a2d7a2cbbd92eb28071f9ff8b01be17764ea1874b9978')
+    axios.get('https://min-api.cryptocompare.com/data/generateAvg?fsym=BTC&tsym=USD&e=Kraken&api_key=')
       .then(res => {
         const cryptos = res.data;
         console.log(cryptos);
